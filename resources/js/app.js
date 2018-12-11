@@ -9,7 +9,14 @@ require('./bootstrap');
 require('admin-lte');
 
 window.Vue = require('vue');
+import moment from 'moment'
+import { Form, HasError, AlertError } from 'vform'
 import VueRouter from 'vue-router'
+
+window.Form = Form;
+Vue.component(HasError.name, HasError)
+Vue.component(AlertError.name, AlertError)
+
 Vue.use(VueRouter);
 
 let routes = [
@@ -21,6 +28,13 @@ let routes = [
 const router = new VueRouter({
     mode: 'history',
    routes // short for `routes: routes`
+});
+
+Vue.filter('upText', function(text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+});
+Vue.filter('myDate', function(created) {
+    return moment(created).format('MMMM Do YYYY');
 });
 
 /**
