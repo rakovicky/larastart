@@ -6234,6 +6234,11 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
+sweetalert2@^7.32.2:
+  version "7.32.2"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-7.32.2.tgz#bda42fe8a50f5f6445a1684ed80f87840e0f5dd1"
+  integrity sha512-BDdr3UdMi2PVLwNTbg8gXFDW0+ZAvO4r5aWbburfBuQEsszIYVM6Oh/A9bGIKQQczurFXx/HVINESszcBzPA0Q==
+
 tapable@^0.2.7:
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.2.8.tgz#99372a5c999bf2df160afc0d74bed4f47948cd22"
@@ -6621,6 +6626,11 @@ vue-loader@^13.7.1:
     vue-hot-reload-api "^2.2.0"
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
+
+vue-progressbar@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/vue-progressbar/-/vue-progressbar-0.7.5.tgz#414730892252b1e45582d4979dec93038e007f79"
+  integrity sha512-VeNG/inMsFbvdCTS7lJ1gjDAKSUZdqkhW9gS1tb0we1rqFKxR+BCEiVUgw5C84vODKb14M2GWHTw0WVdpoVg6g==
 
 vue-router@^3.0.2:
   version "3.0.2"
